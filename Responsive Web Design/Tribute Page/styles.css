@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(230, 198, 198);
+  margin: 1%;
+}
+header {
+  border-radius: 5px;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+li {
+  padding: 5px;
+}
+
+figure {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.page {
+  background-color: rgb(231, 221, 220);
+  border-radius: 5px;
+}
+
+.title-sub {
+  padding: 5px;
+}
+
+.content {
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tesla {
+  max-width: 100%;
+  width: 800px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-div {
+  background-color: rgb(126, 116, 116);
+  border-radius: 5px;
+}
+
+.wikilink {
+  padding: 1%;
+}
+
+#img-caption {
+  padding: 10px;
+}
+
+#tribute-info {
+  display: grid;
+  grid-template-columns: minmax(50px, 800px);
+  justify-content: center;
+  align-self: center;
+  max-width: 800px;
+}
+
+@media (min-width: 1000px) {
+  body {
+    margin: 10px;
+  }
+
+  .content {
+    margin: 10px;
+  }
+
+  figure {
+    padding: 10px;
+  }
+}
