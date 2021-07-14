@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Form Page</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="Gabriel Zanetti">
+
+  <meta property="og:title" content="Form Page">
+  <meta property="og:type" content="website page">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <!-- <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css?v=1.0">
+
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <h1 id="title">A form about You</h1>
+            <p id="description">Tell us more about You as a person</p>
+        </header>
+
+        <main>
+            <form id="survey-form" action="">
+
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" placeholder="Enter your Name" required>
+                <br>
+
+                <label id="email-label" for="email">Email</label>
+                <input id="email" type="email" placeholder="Enter your Email" required>
+                <br>
+
+                <label id="number-label" for="number">Age (optional)</label>
+                <input id="number" type="number" placeholder="Age" min="18" max="110">
+                <br>
+
+                <label for="dropdown">Select the animal You like the most</label>
+                <select name="dropdown" id="dropdown" required>
+                    <option value="cat">Cat</option>
+                    <option value="dog">Dog</option>
+                </select>
+                <br>
+                
+                <label for="indoor-outdoor">What kind of activity do you like more?</label>
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                <br>
+                
+                <label for="personality">What kind of person are You?</label>
+                <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving"> Loving</label>
+                <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+                <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label>
+                <br>
+
+                <label for="textera">Any comments or suggestions?</label>
+                <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+                <br>
+
+                <button id="submit" type="submit">Submit</button>
+                                
+            </form>
+        </main>
+
+        <footer>
+            
+        </footer>
+    </div>
+
+
+</body>
+</html>

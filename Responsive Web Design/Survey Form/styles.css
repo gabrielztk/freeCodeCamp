@@ -1,0 +1,45 @@
+body {
+  background: url("backgroud.jpg");
+  /* background: url("https://images.pexels.com/photos/256502/pexels-photo-256502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+  background-size: cover;
+  font-family: Roboto;
+  color: rgb(205, 255, 255);
+}
+
+header {
+  text-align: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+select,
+button {
+  font-family: Roboto;
+  font-size: 25px;
+  color: rgb(119, 119, 119);
+}
+
+button {
+  background-color: rgba(66, 250, 189, 0.794);
+  color: rgb(25, 0, 255);
+}
+
+main {
+  background-color: rgba(97, 255, 255, 0.274);
+  border-radius: 3%;
+  padding: 30px;
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin: auto;
+  max-width: 500px;
+}
